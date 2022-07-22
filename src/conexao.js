@@ -6,6 +6,7 @@ const knex = require('knex')({
         password: 'ademar1619',
         database: 'market_cubos',
     }
+
 });
 
 module.exports = knex;
