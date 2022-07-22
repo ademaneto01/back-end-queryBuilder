@@ -9,6 +9,7 @@ const verificaLogin = async (req, res, next) => {
         return res.status(401).json('Não autorizado');
     }
 
+
     try {
         const token = authorization.replace('Bearer ', '').trim();
 
